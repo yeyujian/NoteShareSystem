@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c57cfc46-0cea-4ed6-b6ef-2227de809903" name="Default Changelist" comment="" />
+    <list default="true" id="c57cfc46-0cea-4ed6-b6ef-2227de809903" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/skyLine.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/skyLine.war" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,9 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -54,9 +62,10 @@
   <component name="ProjectId" id="1UqKWM9zJLSa0lDqG6ecqTl8vn4" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -64,19 +73,19 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\代码保存\java\test1\src\main\webapp\resources" />
-      <recent name="F:\代码保存\java\test1\src\main\webapp\resources\dist\js" />
-      <recent name="F:\代码保存\java\test1\src\main\webapp\resources\welcome\fonts" />
-      <recent name="F:\代码保存\java\test1\src\main\webapp\resources\welcome\css" />
-      <recent name="F:\代码保存\java\test1\src\main\webapp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\代码保存\java\test1\src\main\webapp\resources\dist\js" />
       <recent name="F:\代码保存\java\test1\src\main\webapp\WEB-INF" />
       <recent name="F:\代码保存\java\test1\src\main\webapp\resources" />
       <recent name="F:\代码保存\java\test1\src\main\resources" />
       <recent name="F:\代码保存\java\test1\src\main\resources\config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\代码保存\java" />
+      <recent name="F:\代码保存\java\test1\src\main\webapp\resources" />
+      <recent name="F:\代码保存\java\test1\src\main\webapp\resources\dist\js" />
+      <recent name="F:\代码保存\java\test1\src\main\webapp\resources\welcome\fonts" />
+      <recent name="F:\代码保存\java\test1\src\main\webapp\resources\welcome\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -92,6 +101,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.27">
+    <configuration name="All in test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -239,11 +256,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.All in test1" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.27" />
       <item itemvalue="Tomcat Server.index.jsp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in test1" />
         <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
@@ -276,10 +295,28 @@
       <workItem from="1576752134360" duration="795000" />
       <workItem from="1576804125340" duration="1180000" />
       <workItem from="1576836893148" duration="523000" />
+      <workItem from="1581311445785" duration="1445000" />
+      <workItem from="1602989868320" duration="390000" />
+      <workItem from="1603010399114" duration="748000" />
+      <workItem from="1605108512066" duration="141000" />
+      <workItem from="1606970405629" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

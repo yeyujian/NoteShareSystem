@@ -1,0 +1,121 @@
+/* layouts */
+
+.grid {
+    position: absolute;
+}
+
+.top {
+    top: 0px;
+    height: 82px;
+}
+
+.middle {
+    top: 82px;
+    bottom: 84px;
+}
+
+.bottom {
+    bottom: 0px;
+    height: 84px;
+}
+
+.left {
+    left: 100px;
+    width: 16px;
+}
+
+.center {
+    left: 116px;
+    right: 116px;
+}
+
+.right {
+    right: 100px;
+    width: 16px;
+}
+
+.top.left {
+    background-image: url("../Images/top-left.png");
+}
+
+.top.center {
+    background-image: url("../Images/top-center.png");
+}
+
+.top.right {
+    background-image: url("../Images/top-right.png");
+}
+
+.middle.left {
+    background-image: url("../Images/middle-left.png");
+}
+
+.middle.center {
+    background-image: url("../Images/middle-center.png");
+}
+
+.middle.right {
+    background-image: url("../Images/middle-right.png");
+}
+
+.bottom.left {
+    background-image: url("../Images/bottom-left.png");
+}
+
+.bottom.center {
+    text-align: center;
+    background-image: url("../Images/bottom-center.png");
+}
+
+.bottom.right {
+    background-image: url("../Images/bottom-right.png");
+}
+
+
+/* views */
+
+#content {
+    font-family: 微软雅黑;
+    font-size: 12px;
+    text-shadow: rgba(255, 255, 255, 0.5) 1px 1px;
+    color: #333;
+    height: 100%;
+    line-height: 160%;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+#title {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#editor {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    bottom: 0px;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+}
+
+
+/* controls */
+
+.button {
+    display: none;
+    margin-top: 22px;
+}
+
+.button:hover {
+    -webkit-filter: brightness(2.0);
+}
+
+.button:active {
+    -webkit-filter: brightness(0.9);
+}
+
+#save {
+    margin-right: 30%;
+}
